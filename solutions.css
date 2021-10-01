@@ -144,21 +144,28 @@
 
   30% {
     top: -10px;
-    left: calc(100% - 30px);
+    left: calc(100% - 50px);
   }
 
-  50% {
+  45% {
+    top: 100%;
+    left: calc(100% - 50px);
+
+  }
+
+  75% {
     top: 100%;
     left: 0;
   }
 
   90% {
-    left: -15px;
-    top: -10px;
+    top: 0;
+    left: -10px;
   }
 
   100% {
     top: -10px;
-    left: 10%;
+    left: 0;
   }
+  
 }
